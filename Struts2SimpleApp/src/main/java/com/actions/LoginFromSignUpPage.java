@@ -2,7 +2,7 @@ package com.actions;
 
 public class LoginFromSignUpPage {
 
-	public String execcute() {
+	public String execute() {
 		return"success";
 	}
 }

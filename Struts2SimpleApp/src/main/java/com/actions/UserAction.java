@@ -16,10 +16,10 @@ Random rand =new Random();
 		this.user = user;
 	}
 	
-	public String execcute() {
+	public String execute() {
 		int num=rand.nextInt(10);
-		/*if(num<5) {return "failure";}
-		else {return "success";}*/
-		return "success";
+		if(num<5) {return "failure";}
+		else {return "success";}
+		
 	}
 }

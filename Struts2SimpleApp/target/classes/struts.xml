@@ -8,23 +8,27 @@
    <constant name="struts.devMode" value="true" />
     <package name = "default" extends = "struts-default">
      
-      <action name="Login" class ="com.actions.UserAction" method="execcute">
+      <action name="Login" class ="com.actions.UserAction" method="execute">
             <result name = "success">/success.jsp</result>
             <result name = "failure">/error.jsp</result>
       </action>
       
-      <action name="SignUp" class ="com.actions.SignUpAction" method="execcute">
+      <action name="SignUp" class ="com.actions.SignUpAction" method="execute">
             <result name = "signup">/SignUpPage.jsp</result>
             
       </action>
       
-      <action name="SignUpNew" class ="com.actions.SignUpAction" method="execcute">
+      <action name="SignUpNew" class ="com.actions.SignUpAction" method="execute">
             <result name = "signup">/SignUp.jsp</result>
             
       </action>
       
-      <action name="LoginFromSignUpPage" class ="com.actions.LoginFromSignUpPage" method="execcute">
+      <action name="LoginFromSignUpPage" class ="com.actions.LoginFromSignUpPage" method="execute">
             <result name = "success">/index.jsp</result>
+            
+      </action>
+      <action name="Home" class ="com.actions.Home" method="execute">
+            <result name = "success">/OurHomePage.jsp</result>
             
       </action>
       

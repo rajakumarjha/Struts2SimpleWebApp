@@ -8,7 +8,14 @@
 <title>Logged In</title>
 </head>
 <body>
-Welcome <s:property value="user.name"></s:property><br>
- To <s:property value="user.city"></s:property> City<br>
+Welcome <s:property value="user.name"></s:property>
+ to <s:property value="user.city"></s:property> city.!!<br>
+ 
+<b>Visit our our website!!</b>
+<s:form action="Home">
+<s:submit key="Submit"></s:submit>
+</s:form>
+ 
+ 
 </body>
 </html>

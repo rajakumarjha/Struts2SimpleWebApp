@@ -22,7 +22,7 @@ public class SignUpAction {
 		return "SignUpAction [user=" + user + "]";
 	}
 
-	public String execcute() {
+	public String execute() {
 		
 		return "signup";
 	}
