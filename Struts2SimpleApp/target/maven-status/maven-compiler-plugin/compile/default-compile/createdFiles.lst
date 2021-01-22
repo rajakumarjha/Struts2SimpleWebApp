@@ -1,0 +1,5 @@
+com\actions\SignUpAction.class
+com\actions\UserAction.class
+com\bean\User.class
+com\actions\LoginFromSignUpPage.class
+com\actions\SignUpActionNew.class
